@@ -36,6 +36,14 @@ html {
     /*     provides space inbetween nav links */
     }
 
-    .posts {
-        border-color: red;
+    .new {
+        border: 2px blue solid;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    div {
+        border: 2px blue solid;
+        margin: 2px;
+        padding: 2px;
     }
