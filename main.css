@@ -1,0 +1,41 @@
+html {
+    width: 100%;
+    background-color: #f9fafc;
+    color: black;
+    font-family: 'Open Sans', sans-serif; 
+  }
+  
+  .container {
+  padding: 1% .5%;
+  
+  }
+  
+  #logo {
+    float: left;
+    padding-left: 20px;
+    color: #000;
+    font-size: 16px; 
+    font-weight: 600;
+    }
+    
+    .topnav {
+    grid-area: header;
+    text-align: right; 
+    padding: 1% 0; 
+    }
+    
+    .topnav ul{
+    margin: 0;
+    float: right;
+    }
+    
+    .topnav ul li{
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px; 
+    /*     provides space inbetween nav links */
+    }
+
+    .posts {
+        border-color: red;
+    }
