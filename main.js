@@ -18,7 +18,12 @@ $(() => {
 
        console.log(title, img, permalink);   
 
-       $('.posts-container').append(`<h4 id="title-container">${title}</h4><div><a href="https://www.reddit.com/${permalink}"><img src="${img}"></img><br><div id="link-container">Link: ${permalink}</div><br></a></div>`);
+       $('.posts-container').append(`<div id="box"><a href="https://www.reddit.com/${permalink}"><img src="${img}"></img>
+       </a>
+       <h4>${title}</h4>
+       <a href="https://www.reddit.com/${permalink}">
+       <div id="link-container">Link: ${permalink}</div>
+       </a></div>`);
        return i < 10;
     
 
